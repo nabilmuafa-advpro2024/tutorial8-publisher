@@ -10,3 +10,8 @@ Artinya, server RabbitMQ yang disambungkan dengan protokol AMQP pada package sub
 
 ### Foto RabbitMQ sedang berjalan
 ![Foto RabbitMQ](running_rabbitmq.png)
+
+### Foto Console saat menjalankan `cargo run` Publisher
+![Foto console](console_ss.png)
+
+Ketika publisher di run, publisher mengirimkan 5 data ke server RabbitMQ. Karena subscriber melakukan listen atas aktivitas di server RabbitMQ, maka ketika data dari publisher datang, subscriber mendeteksi bahwa ada data yang datang sehingga menampilkan data tersebut sesuai format.
